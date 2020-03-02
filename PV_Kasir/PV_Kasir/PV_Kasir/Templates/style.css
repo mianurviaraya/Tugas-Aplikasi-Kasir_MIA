@@ -1,0 +1,176 @@
+body{
+	font-family: 'Questrial';
+	background: #d5f0f3;
+}
+ 
+h1{
+	text-align: center;
+	/*ketebalan font*/
+	font-weight: 300;
+}
+ 
+.tulisan_login{
+    text-align: center;
+	font-weight: bold;
+	font-size: 24px;
+	/*membuat semua huruf menjadi kapital*/
+	text-transform: uppercase;
+}
+.tulisan_judul{
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	/*membuat semua huruf menjadi kapital*/
+	text-transform: uppercase;
+}
+.tulisan_total{
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+	/*membuat semua huruf menjadi kapital*/
+	text-transform: none;
+}
+.tulisan_uang{
+	text-align: center;
+	font-weight: bold;
+	font-size: 15px;
+	/*membuat semua huruf menjadi kapital*/
+	text-transform: none;
+}
+ 
+.kotak_login{
+	box-shadow: 1px 1px 10px 2px rgb(78, 73, 85);  	
+	width: 350px;
+	background: rgba(216, 215, 215, 0.692);
+	/*meletakkan form ke tengah*/
+	margin: 100px auto;
+	padding: 60px 50px;
+	border-radius: 20px;
+}
+.kotak_bayar{
+	box-shadow: 1px 1px 10px 1px rgb(126, 155, 216);  	
+	width: 350px;
+	background: rgba(199, 225, 255, 0.692);
+	/*meletakkan form ke tengah*/
+	margin: 100px auto;
+	padding: 30px 30px 5px 20px;
+	border-radius: 20px;
+}
+
+.kotak_pesanan{
+	box-shadow: 1px 1px 10px 2px rgb(78, 73, 85);  	
+	width: 350px;
+	background: rgba(216, 215, 215, 0.692);
+	/*meletakkan form ke tengah*/
+	margin: 90px auto;
+	padding: 40px 200px;
+	border-radius: 20px;
+
+}
+
+label{
+	font-size: 11pt;
+}
+ 
+.form_login{
+	/*membuat lebar form penuh*/
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+}
+
+.form_pesanan{
+	/*membuat lebar form penuh*/
+	box-sizing : border-box;
+	width: 100%;
+	font-size: 11pt;
+	padding-top: 30px;
+  	padding-right: 20px;
+  	padding-bottom: 50px;
+  	padding-left: 0.007px;
+}
+.kotak_uang{
+	/*membuat lebar form penuh*/
+	box-sizing : border-box;
+	width: 100%;
+	font-size: 11pt;
+	padding-top: 6px;
+  	padding-right: 30px;
+  	padding-bottom: 10px;
+  	padding-left: 20px;
+}
+ 
+ 
+.tombol_login{
+	background: #46de4b;
+	color: white;
+    font-size: 11pt;;
+	width: 100%;
+	border: none;
+	border-radius: 10px;
+	padding: 10px 20px;
+}
+.tombol_login:hover{
+	background-color: rgb(8, 116, 35);
+	color: white;
+	transition-duration: 500ms;
+}
+#abc{
+	background: #78b9f5;
+	color: white;
+    font-size: 15pt;;
+	width: 100%;
+	border: none;
+	border-radius: 10px;
+	padding: 10px 20px;
+}
+ 
+.tombol_kembali{
+	background-color: rgb(0, 194, 10) ;
+	color: white;
+	font-size: 11pt;
+	text-align: center;
+	justify-content: center;
+	width: 100%;
+	border: none;
+	border-radius: 10px;
+	padding: 10px 20px;
+}
+.tombol_kembali:hover{
+	background-color: rgb(41, 90, 41);
+	color: white;
+	transition-duration: 500ms;
+}
+.link{
+	color: #232323;
+	text-decoration: none;
+	font-size: 10pt;
+}
+.btn {
+    display: inline-block;
+    font-weight: normal;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    border: 1px solid transparent;
+    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    border-radius: 0.25rem;
+    transition: all 0.15s ease-in-out;
+  }
+
+.btn-secondary {
+    color: #fff;
+    background-color: #868e96;
+    border-color: #868e96;
+  }
+.garis_panjang {
+    margin-top: 10px;
+     }
